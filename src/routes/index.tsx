@@ -18,9 +18,9 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Amr Hisham — Motion Designer & Video Editor" },
+      { title: "Amr Nasser — Motion Designer & Video Editor" },
       { name: "description", content: "Award-winning motion graphics and cinematic video editing for brands, artists and studios." },
-      { property: "og:title", content: "Amr Hisham — Motion Designer & Video Editor" },
+      { property: "og:title", content: "Amr Nasser — Motion Designer & Video Editor" },
       { property: "og:description", content: "Award-winning motion graphics and cinematic video editing for brands, artists and studios." },
     ],
   }),
