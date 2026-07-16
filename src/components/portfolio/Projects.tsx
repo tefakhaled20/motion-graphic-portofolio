@@ -39,7 +39,7 @@ const projects = [
     published: "Jan 28, 2026",
   },
   {
-    title: "B3sher",
+    title: "B3shr",
     category: "YouTube Video",
     year: "2025",
     img: p5,
@@ -166,7 +166,7 @@ export const projectVideos: Record<string, string[]> = {
   "3li Boltx": [
     "https://youtu.be/mk4VhDM3ogA?si=4lJSMwhckXjDDqEd"
   ],
-  "B3sher": [
+  "B3shr": [
     "https://youtu.be/fHCwNWGS5-I?si=apZkWIXlgJFnK8xi"
   ],
   "Abdullah Khaleel": [
