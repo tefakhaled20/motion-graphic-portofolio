@@ -46,16 +46,7 @@ export function Hero() {
       </motion.div>
 
       <div className="mx-auto w-full max-w-5xl">
-        <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="glass mb-8 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs uppercase tracking-[0.2em] text-muted-foreground"
-          >
-            <span className="h-2 w-2 animate-pulse rounded-full" style={{ background: "oklch(0.63 0.18 255)" }} />
-            Available · Fall 2026
-          </motion.div>
+        
 
           <motion.h1
             style={{ x: tx1, y: ty1 }}
