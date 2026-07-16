@@ -12,19 +12,20 @@ import gameyaVideo1Thumb from "@/assets/gameya-video-1-thumb.jpg";
 import SportEyeThumbnail from "@/assets/022.png";
 import FightLegendsThumbnail from "@/assets/channels4_profile.jpg.jpeg";
 import CastingThumbnail from "@/assets/casting.jpg.jpeg";
+import introVideo from "@/assets/intro.mp4";
 
 const projects = [
   {
     title: "Gam'eya we Daira",
     category: "YouTube Game Show",
-    year: "2025",
+    year: "2026",
     img: p1,
     accent: "oklch(0.55 0.24 285)",
     role: "Director & Editor",
     description:
       "I ran the entire post production for Gam'eya we Daira, a cinema-themed YouTube game show hosted by Mahmoud Mahdy with Casino Al3ab. Handed hours of raw multi-guest footage, I turned it into fast, high-energy episodes engineered to keep viewers watching. Every post stage was mine: punchy comedic editing, custom motion graphics for the game's cards and scoreboards, clean color grading, crisp sound, and captions — all matched to the show's cinematic brand. The result: a consistent, binge-worthy series that looks premium and keeps its audience hooked, episode after episode.",
-    skills: ["Premiere Pro", "After Effects", "Color Grading"],
-    published: "Oct 12, 2025",
+    skills: ["Cinema 4D", "After Effects", "Color Grading"],
+    published: "Mar 12, 2026",
   },
   {
     title: "3li Boltx",
@@ -36,66 +37,66 @@ const projects = [
     description:
       "For 3li Boltx, I edited a high-energy car-and-food challenge video: two cars race between 5 random restaurants, where the car ahead decides what the car behind must order — first to finish wins. I cut the raw footage into a tight, fast-paced edit that keeps the competition and reactions front and center, with punchy pacing, sound design, and custom motion graphics (restaurant tags, live scoring, countdowns) guiding viewers through each round. The result: a scroll-stopping challenge video built to hold attention from the first restaurant to the last bite.",
     skills: ["After Effects", "Premiere Pro", "Color Grading"],
-    published: "feb 28, 2026",
+    published: "Jan 28, 2026",
   },
   {
-    title: "B3shr",
+    title: "Horror Storytelling — حكاوي التلات",
     category: "YouTube Video",
-    year: "2026",
+    year: "2025",
     img: p5,
     accent: "oklch(0.58 0.22 270)",
     role: "Video Editor",
     description:
       "Edited a horror storytelling video for حكاوي التلات — a true scary story from the host's high school days. I built the pacing to pull viewers in from the first line and keep the tension rising, layered in eerie sound design and music to sell the fear, and used dark, moody color grading to turn a simple narration into an immersive, edge-of-your-seat watch — the kind of video that makes people watch till the very last second, lights off.",
     skills: ["Premiere Pro", "Color Grading", "Sound Design"],
-    published: "Mar 4, 2026",
+    published: "Nov 4, 2025",
   },
   {
-    title: "Abdullah Khaleel",
+    title: "Guess the Sound",
     category: "YouTube Video",
-    year: "2026",
+    year: "2025",
     img: p6,
     accent: "oklch(0.52 0.24 290)",
     role: "Video Editor",
     description:
       "Edited \"Guess the Sound\" for Abdullah Khaleel × Egi Squad, where three players battle it out identifying random sounds — get it right, score a point; get it wrong, lose one — until a winner emerges. I cut every reaction at the exact moment it hits, so the suspense of \"did they get it?\" never drops, synced each sound cue frame-perfect with on-screen cues, and built a live scoreboard with motion graphics that makes the competition impossible to look away from. 26 minutes of guessing, tension, and trash talk, edited to feel like a real game show.",
-    skills: ["Premiere Pro", "Color Grading"],
-    published: "Mar 19, 2026",
+    skills: ["Premiere Pro", "Color Grading", "Sound Design"],
+    published: "Aug 19, 2025",
   },
   {
     title: "SportEye",
     category: "YouTube Video",
-    year: "2026",
+    year: "2025",
     img: SportEyeThumbnail,
     accent: "oklch(0.6 0.2 275)",
     role: "Video Editor",
     description:
       "Editor for SportEye, a faceless combat-sports YouTube channel (154K+ subscribers) covering MMA, UFC, karate, and other fighting disciplines. I've edited multiple videos for the channel, cutting fight footage and narration into tight, high-energy videos built to hook viewers from the first clip — pacing key moments, knockouts, and reactions for maximum impact while keeping the story of each fight clear and easy to follow.",
-    skills: ["Premiere Pro", ],
-    published: "Mar 2, 2026",
+    skills: ["Premiere Pro", "VFX", "Sound Design"],
+    published: "Jun 2, 2025",
   },
   {
     title: "Fight Legends Unleashed",
     category: "YouTube Video",
-    year: "2025",
+    year: "2024",
     img: FightLegendsThumbnail,
     accent: "oklch(0.65 0.18 250)",
     role: "Video Editor",
     description:
       "Editor for Fight Legends Unleashed, a faceless MMA and combat-sports YouTube channel (18K+ subscribers). I edited faceless videos — no on-camera host, just footage and narration — covering fighters, techniques, and match breakdowns, cutting action clips and voiceover into fast-paced videos built to hold attention from the first strike to the last.",
     skills: ["Premiere Pro", "Sound Design"],
-    published: "Nov 25, 2025",
+    published: "Oct 30, 2024",
   },
   {
-    title: "casting",
+    title: "كاستنج",
     category: "social media content",
-    year: "2025",
+    year: "2024",
     img: CastingThumbnail,
     accent: "oklch(0.65 0.18 250)",
     role: "Social Media Content Editor",
     description: "Managed the social media reels content for \"Season 2\" of \"كاستنج\", a television talent show directed by Marwan Emam and produced by United Studios, broadcast on CBC. I handled the reels output for the full season — pulling standout on-air moments from each TV episode and turning them into short-form content built to grow reach and keep the show's audience engaged between broadcasts, across a high-volume, fast-turnaround schedule.",
-    skills: ["Premiere Pro"],
-    published: "Nov 25, 2025",
+    skills: ["Premiere Pro", "Sound Design"],
+    published: "Oct 30, 2024",
   },
 ];
 
@@ -166,10 +167,10 @@ export const projectVideos: Record<string, string[]> = {
   "3li Boltx": [
     "https://youtu.be/mk4VhDM3ogA?si=4lJSMwhckXjDDqEd"
   ],
-  "B3shr": [
+  "Horror Storytelling — حكاوي التلات": [
     "https://youtu.be/fHCwNWGS5-I?si=apZkWIXlgJFnK8xi"
   ],
-  "Abdullah Khaleel": [
+  "Guess the Sound": [
     "https://youtu.be/88riCKO5Nu4?si=OOdpaaPSd0xmMsP3"
   ],
   "SportEye": [
@@ -185,6 +186,13 @@ export const projectVideos: Record<string, string[]> = {
 
 };
 
+// User-modifiable array of local video assets for each project
+export const projectLocalVideos: Record<string, { src: string; label: string }[]> = {
+  "Gam'eya we Daira": [
+    { src: introVideo, label: "Intro — Gam'eya we Daira" },
+  ],
+};
+
 // User-modifiable array of photo assets for each project
 export const projectPhotos: Record<string, string[]> = {
   "Gam'eya we Daira": [p1, p2, p3],
@@ -194,7 +202,7 @@ export const projectPhotos: Record<string, string[]> = {
 // User-modifiable array of external links for each project (shown as a plain
 // link card instead of a photo/video thumbnail — e.g. a profile or page)
 export const projectLinks: Record<string, { label: string; url: string }[]> = {
-  "casting": [{ label: "Instagram", url: "https://www.instagram.com/castingums" }],
+  "كاستنج": [{ label: "Instagram", url: "https://www.instagram.com/castingums" }],
 };
 
 
@@ -296,12 +304,14 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
   const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
+  const [selectedLocalVideo, setSelectedLocalVideo] = useState<{ src: string; label: string } | null>(null);
   const [videoTitles, setVideoTitles] = useState<Record<string, string>>({});
 
   const closeModal = () => {
     setSelectedProject(null);
     setSelectedVideo(null);
     setSelectedPhoto(null);
+    setSelectedLocalVideo(null);
   };
 
   // Fetch the real YouTube titles for the selected project's videos.
@@ -338,7 +348,7 @@ export function Projects() {
   }, [selectedProject]);
 
   useEffect(() => {
-    const isModalOpen = Boolean(selectedProject || selectedVideo || selectedPhoto);
+    const isModalOpen = Boolean(selectedProject || selectedVideo || selectedPhoto || selectedLocalVideo);
     if (isModalOpen) {
       const scrollY = window.scrollY;
       const previousBodyOverflow = document.body.style.overflow;
@@ -365,7 +375,7 @@ export function Projects() {
         window.scrollTo(0, scrollY);
       };
     }
-  }, [selectedProject, selectedVideo, selectedPhoto]);
+  }, [selectedProject, selectedVideo, selectedPhoto, selectedLocalVideo]);
 
   return (
     <section id="work" className="relative mx-auto max-w-7xl px-6 py-32 md:px-12">
@@ -382,7 +392,9 @@ export function Projects() {
             Stories rendered <span className="font-serif italic text-gradient">frame by frame</span>.
           </h2>
         </div>
-       
+        <a href="#contact" data-cursor="link" data-cursor-label="All work" className="text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline">
+          View all projects →
+        </a>
       </motion.div>
 
       <div className="grid gap-8 md:grid-cols-2">
@@ -398,6 +410,7 @@ export function Projects() {
           const activeProject = projects.find((p) => p.title === selectedProject);
           if (!activeProject) return null;
           const videos = projectVideos[selectedProject] ?? [];
+          const localVideos = projectLocalVideos[selectedProject] ?? [];
           const photos = projectPhotos[selectedProject] ?? [];
           const links = projectLinks[selectedProject] ?? [];
 
@@ -473,6 +486,26 @@ export function Projects() {
                     Photos &amp; Videos
                   </p>
                   <div className="space-y-4">
+                    {localVideos.map((lv, index) => (
+                      <motion.div
+                        key={`local-video-${index}`}
+                        whileHover={{ x: 4 }}
+                        onClick={() => setSelectedLocalVideo(lv)}
+                        className="group flex cursor-pointer items-center gap-5 rounded-2xl border border-black/10 bg-zinc-50 p-4 transition-colors hover:border-black/20 hover:bg-zinc-100"
+                      >
+                        <div className="relative flex h-24 w-40 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl bg-zinc-900">
+                          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-black shadow-md transition-transform group-hover:scale-110">
+                            <Play className="ml-0.5 h-5 w-5 fill-current" />
+                          </div>
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <p className="truncate text-base font-medium text-zinc-900">{lv.label}</p>
+                          <p className="text-sm text-zinc-500">Click to watch — local file</p>
+                        </div>
+                        <ArrowUpRight className="h-5 w-5 flex-shrink-0 text-zinc-400 opacity-0 transition-opacity group-hover:opacity-100" />
+                      </motion.div>
+                    ))}
+
                     {photos.map((photo, index) => (
                       <motion.div
                         key={`photo-${index}`}
@@ -542,7 +575,7 @@ export function Projects() {
                       </motion.a>
                     ))}
 
-                    {photos.length === 0 && videos.length === 0 && links.length === 0 && (
+                    {photos.length === 0 && videos.length === 0 && localVideos.length === 0 && links.length === 0 && (
                       <div className="flex flex-col items-center justify-center py-12 text-center text-zinc-500">
                         <Film className="mb-3 h-10 w-10 opacity-40" />
                         <p className="text-sm">No photos or videos added yet.</p>
@@ -588,7 +621,53 @@ export function Projects() {
           </motion.div>
         )}
 
-        {/* 3. YouTube Embed Modal Overlay */}
+        {/* 3. Local Video Player Overlay */}
+        {selectedLocalVideo && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-4 backdrop-blur-lg"
+            onClick={() => setSelectedLocalVideo(null)}
+            onWheel={(e) => e.stopPropagation()}
+          >
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.95, opacity: 0 }}
+              transition={{ type: "spring", duration: 0.4 }}
+              className="relative w-full max-w-4xl overflow-hidden rounded-[24px] border border-white/10 bg-black shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header */}
+              <div className="flex items-center justify-between border-b border-white/5 bg-white/5 px-6 py-4">
+                <span className="text-sm font-medium text-white">
+                  {selectedLocalVideo.label}
+                </span>
+                <button
+                  onClick={() => setSelectedLocalVideo(null)}
+                  className="rounded-full border border-white/10 bg-white/5 p-1.5 text-white/60 transition-all duration-300 hover:border-white/20 hover:bg-white/10 hover:text-white"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
+              {/* Native video player */}
+              <div className="aspect-video w-full bg-black">
+                <video
+                  src={selectedLocalVideo.src}
+                  controls
+                  autoPlay
+                  className="h-full w-full"
+                  onError={(e) => console.error("Video failed to load", e)}
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+
+        {/* 4. YouTube Embed Modal Overlay */}
         {selectedVideo && (
           <motion.div
             initial={{ opacity: 0 }}
