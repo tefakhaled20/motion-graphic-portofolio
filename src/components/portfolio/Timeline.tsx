@@ -6,7 +6,7 @@ const items = [
   { year: "2023", title: "Went all in", body: "Made editing my actual job. Premiere Pro and After Effects became second nature, and I started thinking in terms of story and structure, not just cuts." },
   { year: "2024", title: " Sharpened the craft", body: "Built real speed and precision under deadlines — tight pacing, sound sync, and motion graphics that hold up under fast turnarounds." },
   { year: "2025", title: "Leveled up", body: "Edited \" Gam'eya we Daira\" alongside Mahmoud Mahdy, then stepped into United Media Services as Assistant Editor and Reels lead on Season 2 of a major national casting show." },
-  { year: "2026", title: "Running the machine", body: "Now driving the visual output of 7+ brands and channels at once — never missing a beat, never missing a deadline." },
+  { year: "2026", title: "Running the machine", body: "Now driving the visual output for multiple brands and channels at once never missing a beat, never missing a deadline." },
 ];
 
 export function Timeline() {
