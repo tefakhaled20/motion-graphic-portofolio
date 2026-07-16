@@ -25,7 +25,7 @@ const projects = [
     description:
       "I ran the entire post production for Gam'eya we Daira, a cinema-themed YouTube game show hosted by Mahmoud Mahdy with Casino Al3ab. Handed hours of raw multi-guest footage, I turned it into fast, high-energy episodes engineered to keep viewers watching. Every post stage was mine: punchy comedic editing, custom motion graphics for the game's cards and scoreboards, clean color grading, crisp sound, and captions — all matched to the show's cinematic brand. The result: a consistent, binge-worthy series that looks premium and keeps its audience hooked, episode after episode.",
     skills: ["Cinema 4D", "After Effects", "Color Grading"],
-    published: "Mar 12, 2026",
+    published: "Oct 12, 2026",
   },
   {
     title: "Casting",
@@ -36,11 +36,11 @@ const projects = [
     role: "Social Media Content Editor",
     description: "Managed the social media reels content for \"Season 2\" of \"كاستنج\", a television talent show directed by Marwan Emam and produced by United Studios, broadcast on CBC. I handled the reels output for the full season — pulling standout on-air moments from each TV episode and turning them into short-form content built to grow reach and keep the show's audience engaged between broadcasts, across a high-volume, fast-turnaround schedule.",
     skills: ["Premiere Pro", "Sound Design"],
-    published: "Oct 30, 2024",
+    published: "feb 25, 2025",
   },
   
   {
-    title: "Guess the Sound",
+    title: "Abdullah Khaleel",
     category: "YouTube Video",
     year: "2025",
     img: p6,
@@ -49,7 +49,7 @@ const projects = [
     description:
       "Edited \"Guess the Sound\" for Abdullah Khaleel × Egi Squad, where three players battle it out identifying random sounds — get it right, score a point; get it wrong, lose one — until a winner emerges. I cut every reaction at the exact moment it hits, so the suspense of \"did they get it?\" never drops, synced each sound cue frame-perfect with on-screen cues, and built a live scoreboard with motion graphics that makes the competition impossible to look away from. 26 minutes of guessing, tension, and trash talk, edited to feel like a real game show.",
     skills: ["Premiere Pro", "Color Grading", "Sound Design"],
-    published: "Aug 19, 2025",
+    published: "Mar 19, 2026",
   },
   {
     title: "SportEye",
@@ -61,7 +61,7 @@ const projects = [
     description:
       "Editor for SportEye, a faceless combat-sports YouTube channel (154K+ subscribers) covering MMA, UFC, karate, and other fighting disciplines. I've edited multiple videos for the channel, cutting fight footage and narration into tight, high-energy videos built to hook viewers from the first clip — pacing key moments, knockouts, and reactions for maximum impact while keeping the story of each fight clear and easy to follow.",
     skills: ["Premiere Pro", "VFX", "Sound Design"],
-    published: "Jun 2, 2025",
+    published: "Feb 2, 2026",
   },
   {
     title: "Fight Legends Unleashed",
@@ -73,7 +73,7 @@ const projects = [
     description:
       "Editor for Fight Legends Unleashed, a faceless MMA and combat-sports YouTube channel (18K+ subscribers). I edited faceless videos — no on-camera host, just footage and narration — covering fighters, techniques, and match breakdowns, cutting action clips and voiceover into fast-paced videos built to hold attention from the first strike to the last.",
     skills: ["Premiere Pro", "Sound Design"],
-    published: "Oct 30, 2024",
+    published: "Feb 30, 2026",
   },
   {
     title: "3li Boltx",
@@ -88,7 +88,7 @@ const projects = [
     published: "Jan 28, 2026",
   },
   {
-    title: "Horror Storytelling — حكاوي التلات",
+    title: "B3shr",
     category: "YouTube Video",
     year: "2025",
     img: p5,
@@ -97,7 +97,7 @@ const projects = [
     description:
       "Edited a horror storytelling video for حكاوي التلات — a true scary story from the host's high school days. I built the pacing to pull viewers in from the first line and keep the tension rising, layered in eerie sound design and music to sell the fear, and used dark, moody color grading to turn a simple narration into an immersive, edge-of-your-seat watch — the kind of video that makes people watch till the very last second, lights off.",
     skills: ["Premiere Pro", "Color Grading", "Sound Design"],
-    published: "Nov 4, 2025",
+    published: "Feb 4, 2026",
   },
   
 ];
@@ -169,10 +169,10 @@ export const projectVideos: Record<string, string[]> = {
   "3li Boltx": [
     "https://youtu.be/mk4VhDM3ogA?si=4lJSMwhckXjDDqEd"
   ],
-  "Horror Storytelling — حكاوي التلات": [
+  "B3shr": [
     "https://youtu.be/fHCwNWGS5-I?si=apZkWIXlgJFnK8xi"
   ],
-  "Guess the Sound": [
+  "Abdullah Khaleel": [
     "https://youtu.be/88riCKO5Nu4?si=OOdpaaPSd0xmMsP3"
   ],
   "SportEye": [
