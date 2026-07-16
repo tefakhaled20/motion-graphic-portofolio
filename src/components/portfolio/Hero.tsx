@@ -47,14 +47,6 @@ export function Hero() {
 
       <div className="mx-auto w-full max-w-5xl">
         <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="glass mb-8 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs uppercase tracking-[0.2em] text-muted-foreground"
-          >
-            
-
           <motion.h1
             style={{ x: tx1, y: ty1 }}
             className="font-display text-[clamp(3rem,11vw,11rem)] font-semibold leading-[0.92] tracking-tight"
@@ -83,7 +75,7 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
           >
-            I'm <span className="text-foreground">Amr Nasser</span> —a video editor and motion graphics designer who turns raw footage into cuts people actually watch to the end.
+            I'm <span className="text-foreground">Amr Nasser</span> — a video editor and motion graphics designer who turns raw footage into cuts people actually watch to the end.
           </motion.p>
 
           <motion.div
