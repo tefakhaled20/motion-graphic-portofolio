@@ -8,7 +8,6 @@ import p3 from "@/assets/IMG-20250912-WA0051.jpg.jpeg";
 import p4 from "@/assets/maxresdefault.jpg.jpeg";
 import p5 from "@/assets/default.jpg";
 import p6 from "@/assets/mqdefault.jpg";
-import gameyaVideo1Thumb from "@/assets/gameya-video-1-thumb.jpg";
 import SportEyeThumbnail from "@/assets/022.png";
 import FightLegendsThumbnail from "@/assets/channels4_profile.jpg.jpeg";
 import CastingThumbnail from "@/assets/casting.jpg.jpeg";
