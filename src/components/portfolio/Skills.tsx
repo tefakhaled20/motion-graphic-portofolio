@@ -2,11 +2,10 @@ import { motion } from "framer-motion";
 
 const skills = [
   { name: "After Effects", level: 98, color: "oklch(0.55 0.24 285)" },
-  { name: "Cinema 4D", level: 90, color: "oklch(0.63 0.18 255)" },
+  { name: "Illustrator", level: 90, color: "oklch(0.63 0.18 255)" },
   { name: "Premiere Pro", level: 96, color: "oklch(0.58 0.22 270)" },
   { name: "DaVinci Resolve", level: 88, color: "oklch(0.52 0.24 290)" },
-  { name: "Blender", level: 82, color: "oklch(0.65 0.18 250)" },
-  { name: "Figma", level: 92, color: "oklch(0.6 0.2 275)" },
+  { name: "Photoshop", level: 92, color: "oklch(0.6 0.2 275)" },
 ];
 
 function Ring({ level, color }: { level: number; color: string }) {
