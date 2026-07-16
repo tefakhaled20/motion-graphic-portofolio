@@ -23,7 +23,7 @@ const projects = [
     role: "Director & Editor",
     description:
       "I ran the entire post production for Gam'eya we Daira, a cinema-themed YouTube game show hosted by Mahmoud Mahdy with Casino Al3ab. Handed hours of raw multi-guest footage, I turned it into fast, high-energy episodes engineered to keep viewers watching. Every post stage was mine: punchy comedic editing, custom motion graphics for the game's cards and scoreboards, clean color grading, crisp sound, and captions — all matched to the show's cinematic brand. The result: a consistent, binge-worthy series that looks premium and keeps its audience hooked, episode after episode.",
-    skills: ["Cinema 4D", "After Effects", "Color Grading"],
+    skills: ["Premiere Pro", "After Effects", "Color Grading"],
     published: "Mar 12, 2026",
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     role: "Video Editor",
     description:
       "Edited \"Guess the Sound\" for Abdullah Khaleel × Egi Squad, where three players battle it out identifying random sounds — get it right, score a point; get it wrong, lose one — until a winner emerges. I cut every reaction at the exact moment it hits, so the suspense of \"did they get it?\" never drops, synced each sound cue frame-perfect with on-screen cues, and built a live scoreboard with motion graphics that makes the competition impossible to look away from. 26 minutes of guessing, tension, and trash talk, edited to feel like a real game show.",
-    skills: ["Premiere Pro", "Color Grading", "Sound Design"],
+    skills: ["Premiere Pro", "Color Grading"],
     published: "Aug 19, 2025",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     role: "Video Editor",
     description:
       "Editor for SportEye, a faceless combat-sports YouTube channel (154K+ subscribers) covering MMA, UFC, karate, and other fighting disciplines. I've edited multiple videos for the channel, cutting fight footage and narration into tight, high-energy videos built to hook viewers from the first clip — pacing key moments, knockouts, and reactions for maximum impact while keeping the story of each fight clear and easy to follow.",
-    skills: ["Premiere Pro", "VFX", "Sound Design"],
+    skills: ["Premiere Pro", ],
     published: "Jun 2, 2025",
   },
   {
@@ -94,7 +94,7 @@ const projects = [
     accent: "oklch(0.65 0.18 250)",
     role: "Social Media Content Editor",
     description: "Managed the social media reels content for \"Season 2\" of \"كاستنج\", a television talent show directed by Marwan Emam and produced by United Studios, broadcast on CBC. I handled the reels output for the full season — pulling standout on-air moments from each TV episode and turning them into short-form content built to grow reach and keep the show's audience engaged between broadcasts, across a high-volume, fast-turnaround schedule.",
-    skills: ["Premiere Pro", "Sound Design"],
+    skills: ["Premiere Pro"],
     published: "Oct 30, 2024",
   },
 ];
