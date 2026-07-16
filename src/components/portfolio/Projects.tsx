@@ -28,29 +28,17 @@ const projects = [
     published: "Mar 12, 2026",
   },
   {
-    title: "3li Boltx",
-    category: "YouTube Video",
-    year: "2026",
-    img: p4,
-    accent: "oklch(0.63 0.18 255)",
-    role: "Full post-production",
-    description:
-      "For 3li Boltx, I edited a high-energy car-and-food challenge video: two cars race between 5 random restaurants, where the car ahead decides what the car behind must order — first to finish wins. I cut the raw footage into a tight, fast-paced edit that keeps the competition and reactions front and center, with punchy pacing, sound design, and custom motion graphics (restaurant tags, live scoring, countdowns) guiding viewers through each round. The result: a scroll-stopping challenge video built to hold attention from the first restaurant to the last bite.",
-    skills: ["After Effects", "Premiere Pro", "Color Grading"],
-    published: "Jan 28, 2026",
+    title: "Casting",
+    category: "social media content",
+    year: "2024",
+    img: CastingThumbnail,
+    accent: "oklch(0.65 0.18 250)",
+    role: "Social Media Content Editor",
+    description: "Managed the social media reels content for \"Season 2\" of \"كاستنج\", a television talent show directed by Marwan Emam and produced by United Studios, broadcast on CBC. I handled the reels output for the full season — pulling standout on-air moments from each TV episode and turning them into short-form content built to grow reach and keep the show's audience engaged between broadcasts, across a high-volume, fast-turnaround schedule.",
+    skills: ["Premiere Pro", "Sound Design"],
+    published: "Oct 30, 2024",
   },
-  {
-    title: "Horror Storytelling — حكاوي التلات",
-    category: "YouTube Video",
-    year: "2025",
-    img: p5,
-    accent: "oklch(0.58 0.22 270)",
-    role: "Video Editor",
-    description:
-      "Edited a horror storytelling video for حكاوي التلات — a true scary story from the host's high school days. I built the pacing to pull viewers in from the first line and keep the tension rising, layered in eerie sound design and music to sell the fear, and used dark, moody color grading to turn a simple narration into an immersive, edge-of-your-seat watch — the kind of video that makes people watch till the very last second, lights off.",
-    skills: ["Premiere Pro", "Color Grading", "Sound Design"],
-    published: "Nov 4, 2025",
-  },
+  
   {
     title: "Guess the Sound",
     category: "YouTube Video",
@@ -88,16 +76,30 @@ const projects = [
     published: "Oct 30, 2024",
   },
   {
-    title: "كاستنج",
-    category: "social media content",
-    year: "2024",
-    img: CastingThumbnail,
-    accent: "oklch(0.65 0.18 250)",
-    role: "Social Media Content Editor",
-    description: "Managed the social media reels content for \"Season 2\" of \"كاستنج\", a television talent show directed by Marwan Emam and produced by United Studios, broadcast on CBC. I handled the reels output for the full season — pulling standout on-air moments from each TV episode and turning them into short-form content built to grow reach and keep the show's audience engaged between broadcasts, across a high-volume, fast-turnaround schedule.",
-    skills: ["Premiere Pro", "Sound Design"],
-    published: "Oct 30, 2024",
+    title: "3li Boltx",
+    category: "YouTube Video",
+    year: "2026",
+    img: p4,
+    accent: "oklch(0.63 0.18 255)",
+    role: "Full post-production",
+    description:
+      "For 3li Boltx, I edited a high-energy car-and-food challenge video: two cars race between 5 random restaurants, where the car ahead decides what the car behind must order — first to finish wins. I cut the raw footage into a tight, fast-paced edit that keeps the competition and reactions front and center, with punchy pacing, sound design, and custom motion graphics (restaurant tags, live scoring, countdowns) guiding viewers through each round. The result: a scroll-stopping challenge video built to hold attention from the first restaurant to the last bite.",
+    skills: ["After Effects", "Premiere Pro", "Color Grading"],
+    published: "Jan 28, 2026",
   },
+  {
+    title: "Horror Storytelling — حكاوي التلات",
+    category: "YouTube Video",
+    year: "2025",
+    img: p5,
+    accent: "oklch(0.58 0.22 270)",
+    role: "Video Editor",
+    description:
+      "Edited a horror storytelling video for حكاوي التلات — a true scary story from the host's high school days. I built the pacing to pull viewers in from the first line and keep the tension rising, layered in eerie sound design and music to sell the fear, and used dark, moody color grading to turn a simple narration into an immersive, edge-of-your-seat watch — the kind of video that makes people watch till the very last second, lights off.",
+    skills: ["Premiere Pro", "Color Grading", "Sound Design"],
+    published: "Nov 4, 2025",
+  },
+  
 ];
 
 // Helper to extract YouTube video ID from standard/short YouTube links
