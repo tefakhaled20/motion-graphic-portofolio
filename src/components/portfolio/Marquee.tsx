@@ -1,5 +1,4 @@
-const items = ["Awwwards", "Webby Nominee", "FWA Honor", "Behance Featured", "Adobe MAX", "Vimeo Staff Pick", "Motionographer"];
-
+const items = ["GAMING CONTENT", "FACELESS VIDEOS", "SOCIAL REELS", " BRAND VIDEOS", " YOUTUBE EDITING","AUTOMATION VIDEOS"];
 export function Marquee() {
   const row = [...items, ...items];
   return (
