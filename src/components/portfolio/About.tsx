@@ -27,12 +27,10 @@ export function About() {
           </h2>
           <div className="mt-8 space-y-5 text-lg text-muted-foreground">
             <p>
-              Every frame either earns attention or loses it. For over 3 years I've lived in that gap — turning raw footage into cuts that hook, hold, and convert. From Red Bull's branded content to the gaming channels millions watch daily, I build pace, punch,
-              and polish into everything I edit.
+              I'm Amr, a video editor and motion graphics designer based in Cairo. I got into this cutting videos for fun, and it turned into something I take seriously — figuring out exactly where a cut needs to land so people keep watching instead of scrolling away.
             </p>
             <p>
-              Right now I'm running the visual output for 7+ social accounts on a nonstop schedule —
-              while keeping every single delivery on time, on brand, and on point.
+              Over time that took me to some real projects: editing for gaming channels people watch every day, putting together faceless sports videos built to hold attention from the first clip, and cutting content for brands and creators along the way. Every project is different, but my approach stays the same — footage in, story out, nothing wasted.
             </p>
           </div>
 
@@ -40,7 +38,6 @@ export function About() {
             {[
               ["Based", "Cairo, EG"],
               ["Experience", "3+ Years"],
-              ["Clients", "Global"],
               ["Tools", "After Effects, Premiere Pro, Photoshop, Illustrator"],
             ].map(([k, v]) => (
               <div key={k}>
