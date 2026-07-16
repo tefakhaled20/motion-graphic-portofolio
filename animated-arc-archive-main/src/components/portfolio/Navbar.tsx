@@ -46,9 +46,9 @@ export function Navbar() {
         <div className="glass-strong flex items-center justify-between rounded-full px-5 py-3 shadow-[var(--shadow-elegant)]">
           <a href="#top" data-cursor="link" data-cursor-label="Home" className="flex items-center gap-2">
             <span className="grid h-8 w-8 place-items-center rounded-full text-sm font-bold text-primary-foreground" style={{ background: "var(--gradient-vibrant)" }}>
-              K
+              A
             </span>
-            <span className="hidden font-display text-base font-semibold sm:block">Kai Mercer</span>
+            <span className="hidden font-display text-base font-semibold sm:block">Amr Hisham</span>
           </a>
           <nav className="hidden items-center gap-1 md:flex">
             {links.map((l) => (
