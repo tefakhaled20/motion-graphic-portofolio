@@ -1,8 +1,7 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
-import { ArrowDown, Play } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
-import project1 from "@/assets/project-1.jpg";
 
 const headline = ["Motion", "that", "moves", "people."];
 
@@ -46,8 +45,8 @@ export function Hero() {
         <div className="h-full w-full rounded-full" style={{ background: "oklch(0.63 0.18 255)", boxShadow: "0 0 60px oklch(0.63 0.18 255 / 0.5)" }} />
       </motion.div>
 
-      <div className="mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-12">
-        <div className="lg:col-span-8">
+      <div className="mx-auto w-full max-w-5xl">
+        <div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,7 +85,7 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
           >
-            I'm <span className="text-foreground">Amr Nasser</span> — a motion designer and editor crafting cinematic stories for brands, artists and studios across the globe.
+            I'm <span className="text-foreground">Amr Hisham</span> — a motion designer and editor crafting cinematic stories for brands, artists and studios across the globe.
           </motion.p>
 
           <motion.div
@@ -99,47 +98,13 @@ export function Hero() {
               cursorVariant="button"
               className="cursor-none rounded-full px-7 py-4 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow)] animate-gradient"
               style={{ background: "linear-gradient(120deg, oklch(0.55 0.24 285), oklch(0.5 0.22 270), oklch(0.63 0.18 255), oklch(0.55 0.24 285))" }}
+              onClick={() => document.getElementById("work")?.scrollIntoView({ behavior: "smooth" })}
             >
               See selected work
               <ArrowDown className="h-4 w-4" />
             </MagneticButton>
-            <MagneticButton
-              cursorVariant="button"
-              className="glass cursor-none rounded-full px-7 py-4 text-sm font-medium"
-            >
-              <Play className="h-4 w-4" />
-              Watch showreel
-            </MagneticButton>
           </motion.div>
         </div>
-
-        <motion.div
-          style={{ x: tx2, y: ty2 }}
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.6, duration: 1 }}
-          className="relative lg:col-span-4"
-          data-cursor="video"
-        >
-          <div className="glass-strong relative overflow-hidden rounded-3xl">
-            <div className="aspect-[3/4] w-full">
-              <img
-                src={project1}
-                alt="Showreel preview"
-                width={900}
-                height={1200}
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
-            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs">
-              <span className="glass rounded-full px-3 py-1">Showreel · 2026</span>
-              <span className="glass grid h-10 w-10 place-items-center rounded-full">
-                <Play className="h-4 w-4 fill-current" />
-              </span>
-            </div>
-          </div>
-        </motion.div>
       </div>
 
       {/* scroll indicator */}
