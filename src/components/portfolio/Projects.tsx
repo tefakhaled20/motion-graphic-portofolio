@@ -382,9 +382,7 @@ export function Projects() {
             Stories rendered <span className="font-serif italic text-gradient">frame by frame</span>.
           </h2>
         </div>
-        <a href="#contact" data-cursor="link" data-cursor-label="All work" className="text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline">
-          View all projects →
-        </a>
+       
       </motion.div>
 
       <div className="grid gap-8 md:grid-cols-2">
