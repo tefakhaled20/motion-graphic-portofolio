@@ -83,7 +83,7 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
           >
-            I'm <span className="text-foreground">Amr Nasser</span> — a motion designer and editor crafting cinematic stories for brands, artists and studios across the globe.
+            I'm <span className="text-foreground">Amr Nasser</span> —a video editor and motion graphics designer who turns raw footage into cuts people actually watch to the end.
           </motion.p>
 
           <motion.div
