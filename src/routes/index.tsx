@@ -11,7 +11,6 @@ import { About } from "@/components/portfolio/About";
 import { Stats } from "@/components/portfolio/Stats";
 import { Skills } from "@/components/portfolio/Skills";
 import { Timeline } from "@/components/portfolio/Timeline";
-import { Testimonials } from "@/components/portfolio/Testimonials";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 
@@ -42,7 +41,6 @@ function Index() {
         <Stats />
         <Skills />
         <Timeline />
-        <Testimonials />
         <Contact />
         <Footer />
       </main>
