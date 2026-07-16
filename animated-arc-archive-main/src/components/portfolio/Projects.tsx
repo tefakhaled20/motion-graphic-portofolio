@@ -118,9 +118,7 @@ function getYouTubeEmbedUrl(urlOrId: string) {
 // projectVideos below. Use this for videos whose YouTube CDN thumbnail
 // won't load (e.g. maxresdefault/hqdefault/etc. all 404 or fail to fetch) —
 // drop the image in the assets folder, import it above, and map it here.
-const videoThumbnailOverrides: Record<string, string> = {
-  "https://youtu.be/79y1mcD9C9A?si=5AeSBgbhFxygfo-T": gameyaVideo1Thumb,
-};
+const videoThumbnailOverrides: Record<string, string> = {};
 
 // YouTube thumbnail quality tiers, best to worst. Not every video has the
 // higher-res ones (maxresdefault/sddefault often 404 on older or
