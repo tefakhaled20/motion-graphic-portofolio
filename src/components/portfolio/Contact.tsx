@@ -1,15 +1,47 @@
+import emailjs from "@emailjs/browser";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, Loader2, Send } from "lucide-react";
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
+import { toast } from "sonner";
+
+// ─── EmailJS credentials ────────────────────────────────────────────────────
+// 1. Sign up free at https://www.emailjs.com
+// 2. Create a service (Gmail recommended) and note the Service ID
+// 3. Create an email template with variables: {{from_name}}, {{from_email}}, {{message}}
+//    Set the "To Email" in the template to amrrnassarrr@gmail.com
+// 4. Copy your Public Key from Account → API Keys
+// Then replace the three placeholder strings below:
+const EMAILJS_SERVICE_ID = "service_h7fv3ih";
+const EMAILJS_TEMPLATE_ID = "template_40zk6ek";
+const EMAILJS_PUBLIC_KEY = "w7jvBSVvFlBmu3EpC";
+// ────────────────────────────────────────────────────────────────────────────
 
 export function Contact() {
   const [status, setStatus] = useState<"idle" | "loading" | "done">("idle");
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const onSubmit = (e: FormEvent) => {
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    if (!formRef.current) return;
+
     setStatus("loading");
-    setTimeout(() => setStatus("done"), 1400);
-    setTimeout(() => setStatus("idle"), 4000);
+    try {
+      await emailjs.sendForm(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        { publicKey: EMAILJS_PUBLIC_KEY },
+      );
+      setStatus("done");
+      toast.success("Message sent! I'll be in touch soon 🎉");
+      formRef.current.reset();
+      setTimeout(() => setStatus("idle"), 3000);
+    } catch (err: any) {
+      console.error("EmailJS error:", err);
+      setStatus("idle");
+      const detail = err?.text || err?.message || JSON.stringify(err);
+      toast.error(`Failed to send: ${detail}`);
+    }
   };
 
   return (
@@ -31,29 +63,29 @@ export function Contact() {
               Let's <span className="font-serif italic text-gradient">raise</span> the bar.
             </h2>
             <p className="mt-6 max-w-md text-lg text-muted-foreground">
-             Got a project in mind? Tell me what you're working on and let's turn it into something people can't scroll past.
+              Ready to elevate your content? Send a message and let's create something unforgettable.
             </p>
             <div className="mt-10 space-y-2 text-sm">
               <p className="text-muted-foreground">Email</p>
-              <a href="mailto:hello@kaimercer.com" data-cursor="link" data-cursor-label="Email" className="font-display text-2xl">amrrnassarrr@gmail.com</a>
+              <a href="mailto:amrrnassarrr@gmail.com" data-cursor="link" data-cursor-label="Email" className="font-display text-2xl">amrrnassarrr@gmail.com</a>
             </div>
           </div>
 
-          <form onSubmit={onSubmit} className="space-y-5">
+          <form ref={formRef} onSubmit={onSubmit} className="space-y-5">
             {[
-              { name: "name", label: "Your name", type: "text" },
-              { name: "email", label: "Email", type: "email" },
+              { name: "from_name", label: "Your name", type: "text" },
+              { name: "from_email", label: "Email", type: "email" },
             ].map((f) => (
-              <FloatField key={f.name} {...f} />
+              <FloatField key={f.name} {...f} required />
             ))}
-            <FloatField name="message" label="Tell me about the project" type="text" multiline />
+            <FloatField name="message" label="Tell me about the project" type="text" multiline required />
 
             <motion.button
               type="submit"
               disabled={status !== "idle"}
               data-cursor="button"
               whileTap={{ scale: 0.97 }}
-              className="relative flex h-14 w-full items-center justify-center gap-2 overflow-hidden rounded-full text-sm font-medium text-primary-foreground animate-gradient"
+              className="relative flex h-14 w-full items-center justify-center gap-2 overflow-hidden rounded-full text-sm font-medium text-primary-foreground animate-gradient disabled:opacity-70"
               style={{ background: "linear-gradient(120deg, oklch(0.55 0.24 285), oklch(0.5 0.22 270), oklch(0.63 0.18 255), oklch(0.55 0.24 285))" }}
             >
               <AnimatePresence mode="wait">
@@ -81,7 +113,19 @@ export function Contact() {
   );
 }
 
-function FloatField({ name, label, type, multiline }: { name: string; label: string; type: string; multiline?: boolean }) {
+function FloatField({
+  name,
+  label,
+  type,
+  multiline,
+  required,
+}: {
+  name: string;
+  label: string;
+  type: string;
+  multiline?: boolean;
+  required?: boolean;
+}) {
   const [val, setVal] = useState("");
   const [focus, setFocus] = useState(false);
   const lifted = focus || val.length > 0;
@@ -99,6 +143,7 @@ function FloatField({ name, label, type, multiline }: { name: string; label: str
         name={name}
         type={type}
         rows={multiline ? 4 : undefined}
+        required={required}
         value={val}
         onChange={(e: any) => setVal(e.target.value)}
         onFocus={() => setFocus(true)}
