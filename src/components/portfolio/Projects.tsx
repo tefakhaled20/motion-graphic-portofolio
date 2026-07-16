@@ -39,7 +39,7 @@ const projects = [
     published: "Jan 28, 2026",
   },
   {
-    title: "Horror Storytelling — حكاوي التلات",
+    title: "B3sher",
     category: "YouTube Video",
     year: "2025",
     img: p5,
@@ -51,7 +51,7 @@ const projects = [
     published: "Nov 4, 2025",
   },
   {
-    title: "Guess the Sound",
+    title: "Abdullah Khaleel",
     category: "YouTube Video",
     year: "2025",
     img: p6,
@@ -166,10 +166,10 @@ export const projectVideos: Record<string, string[]> = {
   "3li Boltx": [
     "https://youtu.be/mk4VhDM3ogA?si=4lJSMwhckXjDDqEd"
   ],
-  "Horror Storytelling — حكاوي التلات": [
+  "B3sher": [
     "https://youtu.be/fHCwNWGS5-I?si=apZkWIXlgJFnK8xi"
   ],
-  "Guess the Sound": [
+  "Abdullah Khaleel": [
     "https://youtu.be/88riCKO5Nu4?si=OOdpaaPSd0xmMsP3"
   ],
   "SportEye": [
