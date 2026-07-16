@@ -2,7 +2,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
 import { ArrowDown, Play } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
-import project1 from "@/assets/project-1.jpg";
+
 
 const headline = ["Motion", "that", "moves", "people."];
 
