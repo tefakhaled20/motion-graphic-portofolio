@@ -8,7 +8,6 @@ import { Hero } from "@/components/portfolio/Hero";
 import { Marquee } from "@/components/portfolio/Marquee";
 import { Projects } from "@/components/portfolio/Projects";
 import { About } from "@/components/portfolio/About";
-import { Skills } from "@/components/portfolio/Skills";
 import { Timeline } from "@/components/portfolio/Timeline";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
@@ -37,7 +36,6 @@ function Index() {
         <Marquee />
         <Projects />
         <About />
-        <Skills />
         <Timeline />
         <Contact />
         <Footer />
