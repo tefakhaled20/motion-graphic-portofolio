@@ -87,7 +87,7 @@ const projects = [
     published: "Oct 30, 2024",
   },
   {
-    title: "كاستنج",
+    title: "casting",
     category: "social media content",
     year: "2024",
     img: CastingThumbnail,
@@ -194,7 +194,7 @@ export const projectPhotos: Record<string, string[]> = {
 // User-modifiable array of external links for each project (shown as a plain
 // link card instead of a photo/video thumbnail — e.g. a profile or page)
 export const projectLinks: Record<string, { label: string; url: string }[]> = {
-  "كاستنج": [{ label: "Instagram", url: "https://www.instagram.com/castingums" }],
+  "casting": [{ label: "Instagram", url: "https://www.instagram.com/castingums" }],
 };
 
 
