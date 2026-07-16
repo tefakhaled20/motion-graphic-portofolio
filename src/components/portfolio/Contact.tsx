@@ -31,11 +31,11 @@ export function Contact() {
               Let's <span className="font-serif italic text-gradient">raise</span> the bar.
             </h2>
             <p className="mt-6 max-w-md text-lg text-muted-foreground">
-              Ready to elevate your content? Send a message and let's create something unforgettable.
+             Got a project in mind? Tell me what you're working on and let's turn it into something people can't scroll past.
             </p>
             <div className="mt-10 space-y-2 text-sm">
               <p className="text-muted-foreground">Email</p>
-              <a href="mailto:hello@kaimercer.com" data-cursor="link" data-cursor-label="Email" className="font-display text-2xl">hello@kaimercer.com</a>
+              <a href="mailto:hello@kaimercer.com" data-cursor="link" data-cursor-label="Email" className="font-display text-2xl">amrrnassarrr@gmail.com</a>
             </div>
           </div>
 
