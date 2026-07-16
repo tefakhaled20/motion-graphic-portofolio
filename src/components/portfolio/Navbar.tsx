@@ -48,7 +48,7 @@ export function Navbar() {
             <span className="grid h-8 w-8 place-items-center rounded-full text-sm font-bold text-primary-foreground" style={{ background: "var(--gradient-vibrant)" }}>
               A
             </span>
-            <span className="hidden font-display text-base font-semibold sm:block">Amr Hisham</span>
+            <span className="hidden font-display text-base font-semibold sm:block">Amr Nasser</span>
           </a>
           <nav className="hidden items-center gap-1 md:flex">
             {links.map((l) => (
